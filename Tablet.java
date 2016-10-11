@@ -3,7 +3,7 @@
  * 
  * @author Krzysztof Szczurowski
  * @date 10/10/2016
- * @version 1.1
+ * @version 1.1 //more in Readme.txt
  * @since 10/10/2016
  * @see https://learn.bcit.ca/d2l/le/content/331960/viewContent/2074865/View
  */
@@ -50,7 +50,6 @@ public class Tablet
      * @param memory;
      * @param operatingSystem;
      * @param cpu;
-     * @param hasUsbPort;
      * @param chargeDuration;
      */
     public Tablet(String brand, String model, double lcdWidth, double hardDriveSize, double weight, 
@@ -70,7 +69,8 @@ public class Tablet
     
     //Accessors/Mutators (Properties)
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Brand
+     * Public Accessor/Getter to retrieve the current state of tablet's Brand <br>
+     * no input parameter
      * @return returns Brand as String;
      */
     public String getBrand()
@@ -79,9 +79,9 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for the Brand value
+     * Public Mutator/Setter to setup the state for the Brand value <br>
      * no return value
-     * @param new Brand value as String
+     * @param  Brand value as String
      */
     public void setBrand(String value)
     {
@@ -89,7 +89,8 @@ public class Tablet
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Model
+     * Public Accessor/Getter to retrieve the current state of tablet's Model <br>
+     * no input parameter
      * @return returns Model as String
      */
     public String getModel()
@@ -98,17 +99,17 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for the Model value
+     * Public Mutator/Setter to setup the state for the Model value <br>
      * no return value
-     * @param new Model value as String
+     * @param Model value as String
      */
     public void setModel(String value)
     {
-        this.model = (model == null || model.equals("") ? "Nexus 9" : model);
+        this.model = (value == null || value.equals("") ? "Nexus 9" : value);
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Model
+     * Public Accessor/Getter to retrieve the current state of tablet's Model <br>
      * no input parameter
      * @return returns Model as Double
      */
@@ -118,9 +119,9 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for the LCD Width value
+     * Public Mutator/Setter to setup the state for the LCD Width value <br>
      * no return value
-     * @param new LCD Width value as Double
+     * @param  LCD Width value as Double
      */
     public void setLcdWidth(double value)
     {
@@ -128,7 +129,7 @@ public class Tablet
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's HardDrive value
+     * Public Accessor/Getter to retrieve the current state of tablet's HardDrive value <br>
      * no input parameter
      * @return returns HardDrive as Double
      */
@@ -138,9 +139,9 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for the HardDrive value
+     * Public Mutator/Setter to setup the state for the HardDrive value <br>
      * no return value
-     * @param new HardDrive value as Double
+     * @param  HardDrive value as Double
      */
     public void setHardDriveSize(double value)
     {
@@ -148,7 +149,7 @@ public class Tablet
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's weight value
+     * Public Accessor/Getter to retrieve the current state of tablet's weight value <br>
      * no input parameter
      * @return returns weight as double
      */
@@ -158,9 +159,9 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for Weight value
+     * Public Mutator/Setter to setup the state for Weight value <br>
      * no return value
-     * @param new Weight value as Double
+     * @param  Weight value as Double
      */
     public void setWeight(double value)
     {
@@ -168,7 +169,7 @@ public class Tablet
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Memory value
+     * Public Accessor/Getter to retrieve the current state of tablet's Memory value <br>
      * no input parameter
      * @return returns Memory as Integer
      */
@@ -178,9 +179,9 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for Memory value
+     * Public Mutator/Setter to setup the state for Memory value <br>
      * no return value
-     * @param new Memory value as Integer
+     * @param  Memory value as Integer
      */
     public void setMemory(int value)
     {
@@ -188,7 +189,7 @@ public class Tablet
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Operating System
+     * Public Accessor/Getter to retrieve the current state of tablet's Operating System <br>
      * no input parameter
      * @return returns Operating System as String
      */
@@ -198,17 +199,17 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for the Operating System value
+     * Public Mutator/Setter to setup the state for the Operating System value <br>
      * no return value
-     * @param new Operating System value as String
+     * @param  Operating System value as String
      */
     public void setOperatingSystem(String value)
     {
-        this.operatingSystem = value == null ? "Android" : value;
+        this.operatingSystem = value == null || value.equals("") ? "Android" : value;
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's CPU
+     * Public Accessor/Getter to retrieve the current state of tablet's CPU <br>
      * no input parameter
      * @return returns CPU as String
      */
@@ -218,17 +219,38 @@ public class Tablet
     }
     
     /**
-     * Public Mutator/Setter to setup the state for the CPU value
+     * Public Mutator/Setter to setup the state for the CPU value <br>
      * no return value
-     * @param new CPU value as String
+     * @param  CPU value as String
      */
     public void setCpu(String value)
     {
-        this.cpu = cpu == null ? "Intel" : cpu;
+        this.cpu = (value == null || value.equals("") ? "Intel" : value);
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Charge Duration
+     * Public Accessor/Getter to retrieve the current state of tablet's USB Port value <br>
+     * no input parameter
+     * @return returns hasUsbPort as Boolean
+     */
+    public boolean hasUsbPort()
+    {
+        return this.hasUsbPort;
+    }
+    
+    /**
+     * Public Mutator/Setter to setup the state for the hasUsbPort value <br>
+     * no return value
+     * @param  hasUsbPort value as Boolean
+     */
+    public void hasUsbPort(boolean value)
+    {
+        this.hasUsbPort = value;
+    }
+    
+    
+    /**
+     * Public Accessor/Getter to retrieve the current state of tablet's Charge Duration <br>
      * no input parameter
      * @return returns duration of charge as integer
      */
@@ -238,13 +260,13 @@ public class Tablet
     }
     
      /**
-     * Public Mutator/Setter to setup the state for the Charge Duration value
+     * Public Mutator/Setter to setup the state for the Charge Duration value <br>
      * no return value
-     * @param new Charge Duration value as Integer
+     * @param  Charge Duration value as Integer
      */
     public void setChargeDuration(int value)
     {
-        this.chargeDuration = chargeDuration < 0 ? 0 : chargeDuration;
+        this.chargeDuration = value < 0 ? 0 : value;
     }
     
     //public methods
