@@ -9,5 +9,5 @@ PURPOSE OF PROJECT:			Continuation of Java learning using Objects First
 VERSION or DATE:			1.1 (Beta) 10/10/2016
 HOW TO START THIS PROJECT:	Run package.bluej
 AUTHORS:					Krzysztof Szczurowski
-USER INSTRUCTIONS:			N/AUTHORS
-REPO: 						
+USER INSTRUCTIONS:			N/A
+REPO: 						https://github.com/kriss3/BCIT_JavaSem01-Lab03.git
