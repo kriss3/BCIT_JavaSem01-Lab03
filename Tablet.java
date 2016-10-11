@@ -50,6 +50,7 @@ public class Tablet
      * @param memory;
      * @param operatingSystem;
      * @param cpu;
+     * @param hasUspPort
      * @param chargeDuration;
      */
     public Tablet(String brand, String model, double lcdWidth, double hardDriveSize, double weight, 
@@ -63,7 +64,7 @@ public class Tablet
         setMemory(memory);
         setOperatingSystem(operatingSystem);
         setCpu(cpu);
-        //why not setting up hasUsbPort? -- did we forget?
+        hasUsbPort(hasUsbPort);
         setChargeDuration(chargeDuration);
     }
     
