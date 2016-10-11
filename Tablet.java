@@ -64,7 +64,7 @@ public class Tablet
         setMemory(memory);
         setOperatingSystem(operatingSystem);
         setCpu(cpu);
-        hasUsbPort(hasUsbPort);
+        setUsbPort(hasUsbPort);
         setChargeDuration(chargeDuration);
     }
     
@@ -244,7 +244,7 @@ public class Tablet
      * no return value
      * @param  hasUsbPort value as Boolean
      */
-    public void hasUsbPort(boolean value)
+    public void setUsbPort(boolean value)
     {
         this.hasUsbPort = value;
     }
