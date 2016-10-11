@@ -78,6 +78,11 @@ public class Tablet
         return this.brand;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for the Brand value
+     * no return value
+     * @param new Brand value as String
+     */
     public void setBrand(String value)
     {
         this.brand = (value == null || value.equals("") ? "Google" : value);
@@ -92,6 +97,11 @@ public class Tablet
         return this.model;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for the Model value
+     * no return value
+     * @param new Model value as String
+     */
     public void setModel(String value)
     {
         this.model = (model == null || model.equals("") ? "Nexus 9" : model);
@@ -100,28 +110,38 @@ public class Tablet
     /**
      * Public Accessor/Getter to retrieve the current state of tablet's Model
      * no input parameter
-     * @return returns Model as String
+     * @return returns Model as Double
      */
     public double getLcdWidth()
     {
         return this.lcdWidth;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for the LCD Width value
+     * no return value
+     * @param new LCD Width value as Double
+     */
     public void setLcdWidth(double value)
     {
         this.lcdWidth = value < 0 ? 8.9 : value;
     }
     
     /**
-     * Public Accessor/Getter to retrieve the current state of tablet's Model
+     * Public Accessor/Getter to retrieve the current state of tablet's HardDrive value
      * no input parameter
-     * @return returns Model as String
+     * @return returns HardDrive as Double
      */
     public double getHardDriveSize()
     {
         return this.hardDriveSize;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for the HardDrive value
+     * no return value
+     * @param new HardDrive value as Double
+     */
     public void setHardDriveSize(double value)
     {
         this.hardDriveSize = value < 0 ? 0 : value;
@@ -137,6 +157,11 @@ public class Tablet
         return this.weight;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for Weight value
+     * no return value
+     * @param new Weight value as Double
+     */
     public void setWeight(double value)
     {
         this.weight = value < 0 ? 0 : value;
@@ -152,6 +177,11 @@ public class Tablet
         return this.memory;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for Memory value
+     * no return value
+     * @param new Memory value as Integer
+     */
     public void setMemory(int value)
     {
         this.memory = value < 0 ? 0 : value;
@@ -167,6 +197,11 @@ public class Tablet
         return this.operatingSystem;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for the Operating System value
+     * no return value
+     * @param new Operating System value as String
+     */
     public void setOperatingSystem(String value)
     {
         this.operatingSystem = value == null ? "Android" : value;
@@ -182,6 +217,11 @@ public class Tablet
         return this.cpu;
     }
     
+    /**
+     * Public Mutator/Setter to setup the state for the CPU value
+     * no return value
+     * @param new CPU value as String
+     */
     public void setCpu(String value)
     {
         this.cpu = cpu == null ? "Intel" : cpu;
@@ -197,6 +237,11 @@ public class Tablet
         return this.chargeDuration;
     }
     
+     /**
+     * Public Mutator/Setter to setup the state for the Charge Duration value
+     * no return value
+     * @param new Charge Duration value as Integer
+     */
     public void setChargeDuration(int value)
     {
         this.chargeDuration = chargeDuration < 0 ? 0 : chargeDuration;
@@ -210,7 +255,7 @@ public class Tablet
     public void printDetails()
     {
         System.out.println("Brand: " + brand + "\nModel: " + model + "\nLCD Width: " + lcdWidth + "\nHarddrive Size: " + hardDriveSize + "\nWeight: " + weight +
-        "\nMemory: " + memory + "\nOperating System: " + operatingSystem + "\nCPU: " + cpu + "\nCharge Duration: " + chargeDuration);
+        "\nMemory: " + memory + "\nOperating System: " + operatingSystem + "\nCPU: " + cpu + "\nCharge Duration: " + chargeDuration + "h");
     }
     
     
@@ -222,7 +267,7 @@ public class Tablet
     public String getDetails()
     {
         return "Brand: " + brand + " Model: " + model + " CD Width: " + lcdWidth + " Harddrive Size: " + hardDriveSize + " Weight: " + weight +
-        " Memory: " + memory + " Operating System: " + operatingSystem + " CPU: " + cpu + " Charge Duration: " + chargeDuration;
+        " Memory: " + memory + " Operating System: " + operatingSystem + " CPU: " + cpu + " Charge Duration: " + chargeDuration + "h";
     }
 
     /**
