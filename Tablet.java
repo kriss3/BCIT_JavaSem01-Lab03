@@ -126,7 +126,7 @@ public class Tablet
      */
     public void setLcdWidth(double value)
     {
-        this.lcdWidth = value < 0 ? 8.9 : value;
+        this.lcdWidth = (value < 0 ? 8.9 : value);
     }
     
     /**
@@ -146,7 +146,7 @@ public class Tablet
      */
     public void setHardDriveSize(double value)
     {
-        this.hardDriveSize = value < 0 ? 0 : value;
+        this.hardDriveSize = (value < 0 ? 0 : value);
     }
     
     /**
@@ -186,7 +186,7 @@ public class Tablet
      */
     public void setMemory(int value)
     {
-        this.memory = value < 0 ? 0 : value;
+        this.memory = (value < 0 ? 0 : value);
     }
     
     /**
@@ -206,7 +206,7 @@ public class Tablet
      */
     public void setOperatingSystem(String value)
     {
-        this.operatingSystem = value == null || value.equals("") ? "Android" : value;
+        this.operatingSystem = (value == null || value.equals("") ? "Android" : value);
     }
     
     /**
@@ -267,7 +267,7 @@ public class Tablet
      */
     public void setChargeDuration(int value)
     {
-        this.chargeDuration = value < 0 ? 0 : value;
+        this.chargeDuration = (value < 0 ? 0 : value);
     }
     
     //public methods
@@ -277,8 +277,8 @@ public class Tablet
      */
     public void printDetails()
     {
-        System.out.println("Brand: " + brand + "\nModel: " + model + "\nLCD Width: " + lcdWidth + "\nHarddrive Size: " + hardDriveSize + "\nWeight: " + weight +
-        "\nMemory: " + memory + "\nOperating System: " + operatingSystem + "\nCPU: " + cpu + "\nCharge Duration: " + chargeDuration + "h");
+        System.out.println("Brand:\t\t\t" + brand + "\nModel:\t\t\t" + model + "\nLCD Width:\t\t" + lcdWidth + "\nHarddrive Size:\t\t" + hardDriveSize + "\nWeight:\t\t\t" + weight +
+        "\nMemory:\t\t\t" + memory + "GB" + "\nOperating System:\t" + operatingSystem + "\nCPU:\t\t\t" + cpu + "\nCharge Duration:\t" + chargeDuration + "h");
     }
     
     
@@ -290,7 +290,7 @@ public class Tablet
     public String getDetails()
     {
         return "Brand: " + brand + " Model: " + model + " CD Width: " + lcdWidth + " Harddrive Size: " + hardDriveSize + " Weight: " + weight +
-        " Memory: " + memory + " Operating System: " + operatingSystem + " CPU: " + cpu + " Charge Duration: " + chargeDuration + "h";
+        " Memory: " + memory + "GB" + " Operating System: " + operatingSystem + " CPU: " + cpu + " Charge Duration: " + chargeDuration + "h";
     }
 
     /**

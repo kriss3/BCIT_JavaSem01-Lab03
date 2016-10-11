@@ -42,25 +42,26 @@ Building tree for all the packages and classes...
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\Tablet.html...
 C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:10: warning - @date is an unknown tag.
 C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:10: warning - Tag @see: reference not found: https://learn.bcit.ca/d2l/le/content/331960/viewContent/2074865/View
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "brand;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "model;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "lcdWidth;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "hardDriveSize;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "weight;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "memory;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "operatingSystem;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "cpu;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:55: warning - @param argument "chargeDuration;" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:246: warning - @param argument "hasUsbPort" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:86: warning - @param argument "Brand" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:267: warning - @param argument "Charge" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:226: warning - @param argument "CPU" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:146: warning - @param argument "HardDrive" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:126: warning - @param argument "LCD" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:186: warning - @param argument "Memory" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:106: warning - @param argument "Model" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:206: warning - @param argument "Operating" is not a parameter name.
-C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:166: warning - @param argument "Weight" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "brand;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "model;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "lcdWidth;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "hardDriveSize;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "weight;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "memory;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "operatingSystem;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "cpu;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "hasUspPort" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:56: warning - @param argument "chargeDuration;" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:87: warning - @param argument "Brand" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:268: warning - @param argument "Charge" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:227: warning - @param argument "CPU" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:147: warning - @param argument "HardDrive" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:127: warning - @param argument "LCD" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:187: warning - @param argument "Memory" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:107: warning - @param argument "Model" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:207: warning - @param argument "Operating" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:247: warning - @param argument "hasUsbPort" is not a parameter name.
+C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\Tablet.java:167: warning - @param argument "Weight" is not a parameter name.
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\package-frame.html...
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\package-summary.html...
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\constant-values.html...
@@ -70,4 +71,4 @@ Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\allclasses-noframe.html...
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\index.html...
 Generating C:\Users\kszczurowski\Pictures\OneDrive\BCIT\1409_Semester_1\03.Class_09302016\Lab03_TakeHomeLab\doc\stylesheet.css...
-31 warnings
+32 warnings
