@@ -42,16 +42,16 @@ public class Tablet
     
     /**
      * Custom constructor which takes paramters: number equals number of private instance variables
-     * @param brand;
-     * @param model;
-     * @param lcdWidth;
-     * @param hardDriveSize;
-     * @param weight;
-     * @param memory;
-     * @param operatingSystem;
-     * @param cpu;
-     * @param hasUspPort
-     * @param chargeDuration;
+     * @param brand as String;
+     * @param model as String;
+     * @param lcdWidth as double;
+     * @param hardDriveSize as double;
+     * @param weight as double;
+     * @param memory integer;
+     * @param operatingSystem as String;
+     * @param cpu as String;
+     * @param hasUspPort as boolean;
+     * @param chargeDuration as integer;
      */
     public Tablet(String brand, String model, double lcdWidth, double hardDriveSize, double weight, 
                   int memory, String operatingSystem, String cpu, boolean hasUsbPort, int chargeDuration )
